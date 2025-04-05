@@ -142,7 +142,7 @@ if (pokemon) {
     const special_attacktdr = document.createElement('td');
     special_attacktdl.innerText = "Special-attack";
     special_attacktdl.className = "table-td left";
-    special_attacktdr.innerText = pokemon['special_attack'];
+    special_attacktdr.innerText = pokemon['special-attack'];
     special_attacktdr.className = "table-td right";
     special_attacktr.className = "table-tr";
     special_attacktr.appendChild(special_attacktdl);
@@ -154,7 +154,7 @@ if (pokemon) {
     const special_defensetdr = document.createElement('td');
     special_defensetdl.innerText = "Special-defense";
     special_defensetdl.className = "table-td left";
-    special_defensetdr.innerText = pokemon['special_defense'];
+    special_defensetdr.innerText = pokemon['special-defense'];
     special_defensetdr.className = "table-td right";
     special_defensetr.className = "table-tr";
     special_defensetr.appendChild(special_defensetdl);
@@ -173,5 +173,5 @@ if (pokemon) {
     table.appendChild(speedtr);
     
   } else {
-    detailContainer.innerText = 'No data found!';
+    detailcontainer.innerText = 'No data found!';
   }
