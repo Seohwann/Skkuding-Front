@@ -1,5 +1,5 @@
-import List from './.components/PokemonList'
-import Title from './.components/PokemonTitle'
+import List from './components/PokemonList'
+import Title from './components/PokemonTitle'
 
 
 export default function Home() {
