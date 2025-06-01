@@ -3,8 +3,8 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
     output: 'export',
-    basePath: '/Skkuding-Front/Shadcn(Week13)/out',
-    assetPrefix: '/Skkuding-Front/Shadcn(Week13)/out/',
+    basePath: '/Skkuding-Front',
+    assetPrefix: '/Skkuding-Front/',
 };
 
 export default nextConfig;
