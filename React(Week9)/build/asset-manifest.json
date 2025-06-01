@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Skkuding-Front/Shadcn(Week13)/build/static/css/main.2c0bcbc2.css",
+    "main.js": "/Skkuding-Front/Shadcn(Week13)/build/static/js/main.6c4aef40.js",
+    "index.html": "/Skkuding-Front/Shadcn(Week13)/build/index.html",
+    "main.2c0bcbc2.css.map": "/Skkuding-Front/Shadcn(Week13)/build/static/css/main.2c0bcbc2.css.map",
+    "main.6c4aef40.js.map": "/Skkuding-Front/Shadcn(Week13)/build/static/js/main.6c4aef40.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c0bcbc2.css",
+    "static/js/main.6c4aef40.js"
+  ]
+}
