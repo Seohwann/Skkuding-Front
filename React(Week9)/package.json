@@ -2,7 +2,7 @@
   "name": "week9",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://seohwann.github.io/Skkuding-Front/Shadcn(Week13)/build",
+  "homepage": "https://seohwann.github.io/Skkuding-Front/React(Week9)//build",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
