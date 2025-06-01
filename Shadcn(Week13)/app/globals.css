@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+body {
+  @apply bg-black text-white text-base font-sans;
+}
+
+.container {
+  @apply max-w-full grid grid-cols-2 justify-center items-start px-32 py-8 gap-8 mx-auto;
+}
+
+.under {
+  @apply border-b border-yellow-500 text-left;
+}
+
+.titleText {
+  @apply text-yellow-500 text-2xl no-underline;
+}
+
+.item {
+  @apply max-w-xl flex flex-row flex-wrap border border-green-500 rounded-lg justify-start items-center p-4 gap-4 no-underline;
+}
+
+.item-info {
+  @apply flex flex-col gap-1 text-left;
+}
+
+.item-h2 {
+  @apply text-xl p-0 m-0 text-left;
+}
+
+.item-p {
+  @apply text-xs font-light text-gray-300 p-0 m-0;
+}
+
+.item-img {
+  @apply w-16 h-16;
+}
+
+.detailname {
+  @apply text-center text-2xl;
+}
+
+.container2 {
+  @apply max-w-full flex flex-col flex-wrap justify-center items-center gap-8 mx-auto;
+}
+
+.table {
+  @apply flex flex-col w-96 mx-auto border border-green-500 rounded-lg justify-center p-4 border-collapse;
+}
+
+.table-tr {
+  @apply border-b border-green-500 my-2;
+}
+
+.table-td {
+  @apply p-2;
+}
+
+.left {
+  @apply text-left text-lg font-bold w-48;
+}
+
+.right {
+  @apply text-right text-base text-gray-300 font-light w-48;
+}
+
+.imgsize {
+  @apply w-96 h-96 mx-auto;
+}
+
+.circle-border {
+  @apply w-96 h-96 border-4 border-green-500 rounded-full overflow-hidden mx-auto;
+}
+
+@media (max-width: 32rem) {
+  .container {
+    @apply grid-cols-1;
+  }
+}
